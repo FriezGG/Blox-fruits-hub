@@ -3,40 +3,8 @@ local ArrayField = loadstring(game:HttpGet("https://raw.githubusercontent.com/cr
 
 local Window = ArrayField:CreateWindow({
     Name = "SpeedX Hub",
-    LoadingTitle = "Loading",
-    LoadingSubtitle = "By KitlerR and FriezGG",
-    ConfigurationSaving = {
-        Enabled = true,
-        FolderName = nil,
-        FileName = "Speed X "
-    },
-    Discord = {
-        Enabled = true,
-        Invite = "pD4xDUzhMg",
-        RememberJoins = true
-    },
-    KeySystem = false,
-    KeySettings = {
-        Title = "Kitler Key system ",
-        Subtitle = "Key System",
-        Note = "To get the key join our discord (Guess the damn key)",
-        FileName = "KitlerR  Key System",
-        SaveKey = True,
-        GrabKeyFromSite = false,
-        Key = {"GvhyCt6Bisj678BIsGNGer",'GFqQb6oFl4K97m2I735guR7Vw4ez6gELs9gHdNJcCee2aYPqjL'},
-        Actions = {
-            [1] = {
-                Text = 'Link from our discord copied to your clipboard',
-                OnPress = function()
-                end,
-            }
-        },
-    }
-})
-
-ArrayField:Destroy()
-
-local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/cracklua/cracks/m/sources/pitbull/Library/V5.lua"))()
+local Fluent = 
+loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/cracklua/cracks/m/sources/pitbull/Library/V4.lua"))()
 
 local Stats = game:GetService('Stats')
